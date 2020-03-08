@@ -1,0 +1,26 @@
+{
+  "name": "noteable",
+  "version": "1.0.0",
+  "description": "Node.js api project",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongodb": "^3.5.4",
+    "nodemon": "^2.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "Node.js",
+    "FreecodeCamp",
+    "api",
+    "express",
+    "mongodb"
+  ],
+  "author": "Ramona Saintandre",
+  "license": "ISC"
+}
