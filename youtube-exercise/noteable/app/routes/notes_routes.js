@@ -1,7 +1,6 @@
-module.exports = function(app,db){
-  app.post('/notes',(req, res)=>{
-    // we will create the notes here 
-    res.send('Hello')  //this is the callback 
-
+module.exports = function(app, db){
+  app.post('/notes',(req,res)=>{
+    // create teh note here 
+    res.send('hello')
   })
 }
